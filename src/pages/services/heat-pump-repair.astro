@@ -1,0 +1,31 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+13025550147';
+const phoneDisplay = '(302) 555-0147';
+---
+<Layout title="Heat Pump Repair in Middletown, DE | AC Repair Middletown" description="Heat pump repair in Middletown, DE. Expert service for heating and cooling modes.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Heat Pump Repair</h1>
+      <p>Year-Round Comfort · Middletown &amp; New Castle County</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <p>Heat pumps provide both heating and cooling. We diagnose dual-mode issues, defrost problems, and all major brand failures.</p>
+      <h2>What We Provide</h2>
+      <ul>
+          <li>Heating and cooling mode diagnostics</li>
+          <li>Defrost cycle and reversing valve service</li>
+          <li>Refrigerant and compressor expertise</li>
+          <li>All major brands serviced</li>
+          <li>Honest repair vs replace advice</li>
+      </ul>
+      <h2>Ready for Service?</h2>
+      <p>Call or text <a href={`tel:${phone}`} style="color:var(--primary);font-weight:600">{phoneDisplay}</a> for same-day service in Middletown, DE. Upfront pricing and a written estimate before any work begins.</p>
+      <p style="margin-top:1.5rem">
+        <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+      </p>
+    </div>
+  </section>
+</Layout>

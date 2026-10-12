@@ -1,0 +1,31 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+13025550147';
+const phoneDisplay = '(302) 555-0147';
+---
+<Layout title="AC Installation in Middletown, DE | AC Repair Middletown" description="AC installation in Middletown, DE. Properly sized central air and heat pump installs with warranty.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>AC Installation</h1>
+      <p>Replacement & New Systems · Middletown &amp; New Castle County</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <p>When repair no longer makes sense, we install properly sized central air and heat pump systems that match Delaware homes and humidity loads.</p>
+      <h2>What We Provide</h2>
+      <ul>
+          <li>Manual J load calculation for correct sizing</li>
+          <li>Code-compliant installation</li>
+          <li>High-efficiency options available</li>
+          <li>Removal and disposal of old equipment</li>
+          <li>Workmanship warranty included</li>
+      </ul>
+      <h2>Ready for Service?</h2>
+      <p>Call or text <a href={`tel:${phone}`} style="color:var(--primary);font-weight:600">{phoneDisplay}</a> for same-day service in Middletown, DE. Upfront pricing and a written estimate before any work begins.</p>
+      <p style="margin-top:1.5rem">
+        <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+      </p>
+    </div>
+  </section>
+</Layout>

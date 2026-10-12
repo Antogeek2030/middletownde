@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+13025550147';
+const phoneDisplay = '(302) 555-0147';
+---
+<Layout title="Service Areas | AC Repair Middletown DE" description="AC repair service areas: Middletown, Odessa, Townsend, Smyrna, Bear, Newark, Wilmington and New Castle County, Delaware.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Service Areas</h1>
+      <p>Proudly serving Middletown and New Castle County, Delaware.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <p>We provide same-day and emergency AC repair, maintenance, and installation throughout the greater Middletown area and surrounding communities.</p>
+      <h2>Communities We Serve</h2>
+      <ul>
+        <li>Middletown</li>
+        <li>Odessa</li>
+        <li>Townsend</li>
+        <li>Smyrna</li>
+        <li>Bear</li>
+        <li>Newark</li>
+        <li>Wilmington</li>
+        <li>New Castle</li>
+        <li>Delaware City</li>
+        <li>And surrounding New Castle County communities</li>
+      </ul>
+      <p>Not sure if we cover your address? Call <a href={`tel:${phone}`} style="color:var(--primary);font-weight:600">{phoneDisplay}</a> and we will confirm.</p>
+      <p style="margin-top:1.5rem">
+        <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+      </p>
+    </div>
+  </section>
+</Layout>

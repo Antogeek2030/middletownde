@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+13025550147';
+const phoneDisplay = '(302) 555-0147';
+---
+<Layout title="About Us | AC Repair Middletown DE" description="Local licensed AC repair team serving Middletown and New Castle County, Delaware. Same-day service, upfront pricing, written guarantee.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>About AC Repair Middletown</h1>
+      <p>Local specialists dedicated to keeping Delaware homes cool.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <p>We are a Middletown-based air conditioning repair and installation company focused on fast response, honest diagnostics, and lasting repairs. Our technicians are licensed, insured, and experienced with the brands and system types common across New Castle County.</p>
+      <h2>What Sets Us Apart</h2>
+      <ul>
+        <li>Same-day and emergency availability seven days a week</li>
+        <li>Upfront written estimates — no surprise fees</li>
+        <li>Stocked service vehicles so most repairs finish on the first visit</li>
+        <li>Clear communication in plain language</li>
+        <li>Workmanship guarantee on repairs and installs</li>
+      </ul>
+      <h2>Our Location</h2>
+      <p>11105 Industrial Dr #6, Middletown, DE 19709. We serve Middletown, Odessa, Townsend, Smyrna, Bear, Newark, Wilmington, and surrounding communities.</p>
+      <p style="margin-top:1.5rem">
+        <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+      </p>
+    </div>
+  </section>
+</Layout>

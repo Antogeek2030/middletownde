@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://acrepairmiddletownde.com/sitemap-index.xml

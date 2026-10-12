@@ -1,0 +1,24 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+13025550147';
+const phoneDisplay = '(302) 555-0147';
+---
+<Layout title="AC Leaking Water | AC Repair Middletown DE" description="AC leaking water in Middletown, DE. Fast repair for clogged drains, frozen coils, and condensate issues.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>AC Leaking Water</h1>
+      <p>Urgent · Middletown, DE</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <p>Water around the indoor unit usually means a clogged condensate drain line, a frozen evaporator coil that is thawing, or a disconnected drain pan.</p>
+      <p>Act quickly — standing water can damage floors, ceilings, and promote mold growth in Delaware humidity.</p>
+      <h2>Get Help Today</h2>
+      <p>Call <a href={`tel:${phone}`} style="color:var(--primary);font-weight:600">{phoneDisplay}</a> for same-day service in Middletown and New Castle County. Upfront pricing, licensed technicians, written estimate before work begins.</p>
+      <p style="margin-top:1.5rem">
+        <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+      </p>
+    </div>
+  </section>
+</Layout>

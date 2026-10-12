@@ -1,0 +1,24 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+13025550147';
+const phoneDisplay = '(302) 555-0147';
+---
+<Layout title="AC Not Cooling | AC Repair Middletown DE" description="AC not cooling in Middletown, DE? Same-day diagnosis and repair for warm air, weak airflow, and system failures.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>AC Not Cooling</h1>
+      <p>Urgent · Middletown, DE</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <p>Warm air from the vents is one of the most common emergency calls in Middletown. Causes range from a failed capacitor or contactor to low refrigerant, a dirty evaporator coil, or a compressor issue.</p>
+      <p>Complete loss of cooling often means a failed start capacitor, low refrigerant charge, or a tripped breaker. Same-day diagnostics restore comfort fast.</p>
+      <h2>Get Help Today</h2>
+      <p>Call <a href={`tel:${phone}`} style="color:var(--primary);font-weight:600">{phoneDisplay}</a> for same-day service in Middletown and New Castle County. Upfront pricing, licensed technicians, written estimate before work begins.</p>
+      <p style="margin-top:1.5rem">
+        <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+      </p>
+    </div>
+  </section>
+</Layout>

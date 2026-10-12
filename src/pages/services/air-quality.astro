@@ -1,0 +1,31 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+13025550147';
+const phoneDisplay = '(302) 555-0147';
+---
+<Layout title="Indoor Air Quality in Middletown, DE | AC Repair Middletown" description="Indoor air quality solutions in Middletown, DE. Filters, UV, humidity control.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Indoor Air Quality</h1>
+      <p>Breathe Easier · Middletown &amp; New Castle County</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <p>Better filtration, UV lights, and humidity control improve comfort and help your AC run more efficiently.</p>
+      <h2>What We Provide</h2>
+      <ul>
+          <li>High-MERV and media filter upgrades</li>
+          <li>UV germicidal lights</li>
+          <li>Whole-home humidifiers and dehumidifiers</li>
+          <li>Air purifiers and IAQ assessments</li>
+          <li>Works with existing systems</li>
+      </ul>
+      <h2>Ready for Service?</h2>
+      <p>Call or text <a href={`tel:${phone}`} style="color:var(--primary);font-weight:600">{phoneDisplay}</a> for same-day service in Middletown, DE. Upfront pricing and a written estimate before any work begins.</p>
+      <p style="margin-top:1.5rem">
+        <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+      </p>
+    </div>
+  </section>
+</Layout>

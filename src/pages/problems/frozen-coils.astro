@@ -1,0 +1,24 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+13025550147';
+const phoneDisplay = '(302) 555-0147';
+---
+<Layout title="Frozen Coils | AC Repair Middletown DE" description="Frozen AC coils in Middletown, DE. Fast diagnosis of low refrigerant, airflow restrictions, and ice buildup.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Frozen Coils</h1>
+      <p>Urgent · Middletown, DE</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <p>Ice on the evaporator or outdoor unit restricts airflow and can damage the compressor if the system keeps running. Common causes include low refrigerant, dirty filters, or blocked return air.</p>
+      <p>Turn the system off, change the filter, and call for service before the compressor fails.</p>
+      <h2>Get Help Today</h2>
+      <p>Call <a href={`tel:${phone}`} style="color:var(--primary);font-weight:600">{phoneDisplay}</a> for same-day service in Middletown and New Castle County. Upfront pricing, licensed technicians, written estimate before work begins.</p>
+      <p style="margin-top:1.5rem">
+        <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+      </p>
+    </div>
+  </section>
+</Layout>

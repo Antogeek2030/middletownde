@@ -1,0 +1,41 @@
+---
+const phone = '+13025550147';
+const phoneDisplay = '(302) 555-0147';
+const year = new Date().getFullYear();
+---
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>AC Repair Middletown DE</h4>
+        <p>Licensed air conditioning repair, installation, and maintenance serving Middletown and New Castle County. Same-day service, upfront pricing, written guarantee.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <p><a href="/services/emergency-ac-repair/">Emergency AC Repair</a></p>
+        <p><a href="/services/ac-maintenance/">AC Maintenance</a></p>
+        <p><a href="/services/ac-installation/">AC Installation</a></p>
+        <p><a href="/services/ductless-mini-split/">Ductless Mini-Split</a></p>
+        <p><a href="/services/heat-pump-repair/">Heat Pump Repair</a></p>
+      </div>
+      <div>
+        <h4>Common Problems</h4>
+        <p><a href="/problems/no-cooling/">AC Not Cooling</a></p>
+        <p><a href="/problems/ac-leaking/">AC Leaking</a></p>
+        <p><a href="/problems/strange-noises/">Strange Noises</a></p>
+        <p><a href="/problems/frozen-coils/">Frozen Coils</a></p>
+        <p><a href="/problems/high-energy-bills/">High Bills</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href={`tel:${phone}`}>{phoneDisplay}</a></p>
+        <p>11105 Industrial Dr #6<br />Middletown, DE 19709</p>
+        <p>Open 24 / 7 for emergencies</p>
+        <p style="margin-top:0.75rem"><a href="/service-areas/">Service Areas</a> · <a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/blog/">Blog</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© {year} AC Repair Middletown DE. All rights reserved. | <a href="/privacy/">Privacy Policy</a></p>
+    </div>
+  </div>
+</footer>

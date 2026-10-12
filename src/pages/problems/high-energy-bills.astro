@@ -1,0 +1,24 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+13025550147';
+const phoneDisplay = '(302) 555-0147';
+---
+<Layout title="High Energy Bills | AC Repair Middletown DE" description="High AC energy bills in Middletown, DE. Diagnostics for dirty coils, low refrigerant, and efficiency problems.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>High Energy Bills</h1>
+      <p>Address Soon · Middletown, DE</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <p>A sudden jump in electric bills while the AC runs can mean dirty coils, low refrigerant, a failing compressor, or an oversized/undersized system working inefficiently.</p>
+      <p>A tune-up and diagnostic often identify the cause and restore efficiency.</p>
+      <h2>Get Help Today</h2>
+      <p>Call <a href={`tel:${phone}`} style="color:var(--primary);font-weight:600">{phoneDisplay}</a> for same-day service in Middletown and New Castle County. Upfront pricing, licensed technicians, written estimate before work begins.</p>
+      <p style="margin-top:1.5rem">
+        <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+      </p>
+    </div>
+  </section>
+</Layout>

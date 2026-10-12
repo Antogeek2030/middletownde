@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+13025550147';
+const phoneDisplay = '(302) 555-0147';
+---
+<Layout title="Contact Us | AC Repair Middletown DE" description="Contact AC Repair Middletown for same-day service. Call (302) 555-0147. Located at 11105 Industrial Dr #6, Middletown, DE 19709.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>Same-day and emergency AC service across Middletown and New Castle County.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="map-section">
+        <div class="map-info">
+          <h3>Get in Touch</h3>
+          <p><strong>Phone:</strong> <a href={`tel:${phone}`} style="color:var(--primary)">{phoneDisplay}</a></p>
+          <p><strong>Address:</strong> 11105 Industrial Dr #6<br />Middletown, DE 19709</p>
+          <p><strong>Hours:</strong> 24 / 7 for emergency repairs</p>
+          <p style="margin-top:1rem">Call or text for the fastest response. We confirm appointments quickly and often offer same-day slots.</p>
+          <p style="margin-top:1.5rem">
+            <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+          </p>
+        </div>
+        <div class="map-embed">
+          <iframe
+            title="AC Repair Middletown DE location"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-75.74%2C39.43%2C-75.69%2C39.47&amp;layer=mapnik&amp;marker=39.4493%2C-75.7163"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
